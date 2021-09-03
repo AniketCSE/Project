@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 15%;
+    height: 80px;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* navigation CSS */
+
+.nav{
+    width: 35%;
+    height: 80px;
+    background-color: yellow;
+}
+
+.nav-links{
+    display: flex;
+
+}
+
+.nav-link{
+    list-style-type:none;
+    height: 80px;
+    width: 25%;
+    background-color: black;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Segoe UI';
+    cursor: pointer;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Banner CSS */
+
+.banner{
+    height: 700px;
+    width: 100%;
+    background-color: blue;
+    background-image: url('./images/venbanner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-section{
+    height:200px ;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 10%;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.btn{
+    padding-top:12px ;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: black;
+    border-radius: 10px;
+    background-color: rgba(182, 7, 7, 0.575);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(224, 16, 16, 0.849);
+}
+
+/* Films CSS */
+
+.films{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction:column ;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.films-container{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: red; */
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Segoe UI';
+
+}
+
+.film-card{
+    width: 22%;
+    height: 450px;
+    background-color: yellow;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.film-detail{
+    height: 225px;
+    width: 100%;
+    background-color: rgba(0, 0, 1, 0.747);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.film-detail:hover{
+    height: 450px;    
+}
+
+.film-title{
+    color: white;
+    font-family:'Segoe UI';
+    font-size: 40px;
+}
+
+.padd{
+    padding:20px ;
+}
+
+.card-1{
+    background-image: url('https://m.media-amazon.com/images/I/61jphewUR6L._AC_SL1111_.jpg');
+}
+
+.card-2{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f57b5933224607.56a50877ed29d.jpg');
+}
+
+.card-3{
+    background-image: url('https://media-cache.cinematerial.com/p/500x/bqfb4ls7/the-dark-knight-rises-movie-poster.jpg?v=1456577342');
+}
+
+.card-4{
+    background-image: url('https://i.pinimg.com/originals/dd/3f/14/dd3f1413153e24f5a86bc875c5ba91bf.jpg')
+}
+
+.sign{
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
